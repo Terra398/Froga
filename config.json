@@ -1,0 +1,37 @@
+﻿{
+	"id": "com.froga.froga",
+	"version": "0.1",
+	"name": "Froga",
+	"description": "This my first game",
+	"author": "Terra",
+	"email": "kikfefshop@gmail.com",
+	"website": "https://discord.gg/rYHNWHAaws",
+	"fullscreen": "true",
+	"useragent": null,
+	"orientation": "landscape",
+	"icons": [{
+		"src": "www/icon-256.png",
+		"width": 256,
+		"height": 256,
+		"density": "xxxhdpi"
+	}, {
+		"src": "www/icon-128.png",
+		"width": 128,
+		"height": 128,
+		"density": "xhdpi"
+	}],
+	"plugins": [
+		{ "id": "cordova-custom-config", "version": null },
+		{ "id": "cordova-plugin-statusbar", "version": null },
+		{ "id": "cordova-plugin-whitelist", "version": null }
+	],
+	"android": {
+		"min": 21,
+		"target": 21,
+		"plugins": []
+	},
+	"ios": {
+		"target": "8.0",
+		"plugins": []
+	}
+}
